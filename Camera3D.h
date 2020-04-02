@@ -1,6 +1,6 @@
 #pragma once
-// #include "GameMaths.h"
-// #include "Input.h"
+#include "GameMaths.h"
+#include "Input.h"
 
 bool cam_mouse_controls = false;
 

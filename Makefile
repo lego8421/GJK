@@ -24,7 +24,7 @@ INCLUDE_DIRS_MAC = -I/sw/include -I/usr/local/include
 
 #External libs to link to
 LIB_DIR_WIN32 = libs/win32/
-LIBS_WIN32 = $(LIB_DIR_WIN32)libglfw3.a
+LIBS_WIN32 = $(LIB_DIR_WIN32)libglfw3.a $(LIB_DIR_WIN32)libglfw3dll.a
 LIB_DIR_MAC = libs/osx_64/
 LIBS_MAC = $(LIB_DIR_MAC)libglfw3.a
 
